@@ -1,0 +1,17 @@
+GetX Controller:
+
+
+Features:
+State Management.
+Route Management.
+Dependency Management.
+Internationalization.
+Validation, Storage.
+
+Steps:
+-1 Install getx.
+-2 To use getx you have to make a class that extends getxcontroller class.
+-3 Next we have to give the dependency injection means we have to initialize the class which extends the getxcontroller.
+   The step to initialization is a little different from a normal class. Get.put(TapController()).
+-4 We can use getX for navigation purposes by converting the materialapp to GetMaterialApp() and
+   then using the Get.to(()=> PageName()).
